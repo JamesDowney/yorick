@@ -7,6 +7,10 @@ import Level5 from "./quests/Level5";
 import Level6 from "./quests/Level6";
 import Level7 from "./quests/Level7";
 import Level8 from "./quests/Level8";
+import AbooPeak from "./quests/level9/AbooPeak";
+import OilPeak from "./quests/level9/OilPeak";
+import OrcChasm from "./quests/level9/OrcChasm";
+import TwinPeak from "./quests/level9/TwinPeak";
 
 const QuestSection = () => (
   <Section name="Quests">
@@ -18,6 +22,10 @@ const QuestSection = () => (
     <Level6 />
     <Level7 />
     <Level8 />
+    <OrcChasm />
+    <AbooPeak />
+    <TwinPeak />
+    <OilPeak />
   </Section>
 );
 
